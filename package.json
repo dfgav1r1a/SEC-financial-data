@@ -1,0 +1,20 @@
+{
+  "name": "financial-data",
+  "version": "1.0.0",
+  "description": "Application developed with the to get financial data from public companies that trade in the american stock market. The data will be doenloaded directly from the SEC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "financial-data",
+    "SEC",
+    "stock-market",
+    "S&P500",
+    "Rusell3000",
+    "NYSE",
+    "DOW"
+  ],
+  "author": "Daniel Gaviria",
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Data</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="btnContainer">
+        <button id="fetchBtn">Get Data</button>
+    </div>
+    <div class="formContainer">
+        <form>
+            <label for="ticker">Ticker Symbol</label>
+            <input list="tickers" name="ticker" id="ticker" placeholder="Type company ticker" required>
+            <datalist id="tickers">
+            </datalist>
+            <input id="getIndexedDBData" type="submit" value="See Data">
+        </form>
+    </div>
+    <div id="dataDisplay">
+        
+    </div>
+    <script src="index.js" type="module" defer></script>
+</body>
+</html>
